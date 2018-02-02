@@ -1,6 +1,7 @@
 #ifndef TEST_H
 #define TEST_H
 
+#include "global.h"
 
 class Test
 {
@@ -10,6 +11,8 @@ public:
     int getmm();
     void sethh(int temp);
     int gethh();
+    void settestll(int temp);
+    int gettestll();
 private:
     int hh;
 };

@@ -4,7 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp \
-    test.cpp
+    test.cpp \
+    testglobal.cpp
 
 HEADERS += \
-    test.h
+    test.h \
+    testglobal.h \
+    global.h

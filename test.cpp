@@ -2,6 +2,8 @@
 
 int mm = 0;
 
+int testll = 2;
+
 Test::Test()
 {
     hh = 1;
@@ -25,4 +27,14 @@ void Test::sethh(int temp)
 int Test::gethh()
 {
     return hh;
+}
+
+void Test::settestll(int temp)
+{
+    testll = temp;
+}
+
+int Test::gettestll()
+{
+    return testll;
 }
